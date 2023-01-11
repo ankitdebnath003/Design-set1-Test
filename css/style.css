@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Space+Grotesk&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* universal-container */
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/* For giving same padding */
+.same-padding {
+    padding-left: 20px;
+}
+
+.right-bar {
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+.right-border {
+    border-right: 1px solid white;
+    padding-right: 55px;
+}
+
+.same-flex {
+    display: flex;
+}
+
+/* header start */
+header {
+    background-color: #032A31;
+    color: #fff;
+}
+
+.header-wrap {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftside {
+    display: flex;
+    width: 50%;
+}
+
+.location {
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+.timing {
+    padding-left: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social p {
+    cursor: pointer;
+}
+
+.social p,
+.leftside p {
+    padding: 2px 5px;
+}
+
+/* header end */
+
+/* About Us Wrapper start */
+.about-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    color: black;
+}
+
+.company-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact {
+    display: flex;
+}
+
+.call {
+    margin-right: 15px;
+}
+
+.email,
+.call {
+    display: flex;
+}
+
+.mail,
+.phone-no {
+    padding-left: 10px;
+}
+
+.navigation-wrapper {
+    background-color: #813D16;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    padding: 20px 20px 20px 0;
+}
+
+.search-container {
+    padding-top: 8px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-container form {
+    background-color: #996445;
+    padding: 10px;
+}
+
+.search-container form input {
+    border: none;
+    background-color: #996445;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+/* About Us Wrapper end */
+
+/* Banner start */
+.banner {
+    background: url("../Images/banner.jpg") no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.service-wrap {
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.service-wrap h1 {
+    font-size: 50px;
+}
+
+.service-wrap p {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.services img {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #B24B11;
+}
+
+.services a {
+    color: #B24B11;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.services p {
+    padding-right: 10px;
+}
+
+.services p span {
+    padding-left: 10px;
+}
+
+.services {
+    display: flex;
+}
+
+/* Banner end */
+
+/* Footer start */
+footer {
+    background-color: #032A31;
+    color: #fff;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.benefits p {
+    padding-left: 10px;
+}
+
+/* Footer end */
